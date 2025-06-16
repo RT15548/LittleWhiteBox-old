@@ -5,7 +5,7 @@ import { initTasks } from "./scheduledTasks.js";
 import { initScriptAssistant } from "./scriptAssistant.js";
 import { initMessagePreview, addHistoryButtonsDebounced } from "./message-preview.js";
 
-const EXT_ID = "LittleWhiteBox";
+const EXT_ID = "LittleWhiteBox-old";
 const EXT_NAME = "小白X";
 const MODULE_NAME = "xiaobaix-memory";
 const extensionFolderPath = `scripts/extensions/third-party/${EXT_ID}`;
