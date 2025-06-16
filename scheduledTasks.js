@@ -11,7 +11,7 @@ import { download, getFileText, uuidv4, debounce } from "../../../utils.js";
 import { executeSlashCommand } from "./index.js";
 
 const TASKS_MODULE_NAME = "xiaobaix-tasks";
-const EXT_ID = "LittleWhiteBox";
+const EXT_ID = "LittleWhiteBox-old";
 const defaultSettings = { 
     enabled: false, 
     globalTasks: [], 
@@ -469,7 +469,7 @@ async function checkEmbeddedTasks() {
                 accountStorage.setItem(checkKey, 'true');
                 let result;
                 try {
-                    const templateFilePath = `scripts/extensions/third-party/LittleWhiteBox/embeddedTasks.html`;
+                    const templateFilePath = `scripts/extensions/third-party/LittleWhiteBox-old/embeddedTasks.html`;
                     const templateContent = await fetch(templateFilePath).then(r => r.text());
                     const templateElement = $(templateContent);
                     const taskListContainer = templateElement.find('#embedded-tasks-list');

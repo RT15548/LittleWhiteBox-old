@@ -2,7 +2,7 @@ import { extension_settings, getContext } from "../../../extensions.js";
 import { saveSettingsDebounced, eventSource, event_types } from "../../../../script.js";
 import { callGenericPopup, POPUP_TYPE } from "../../../popup.js";
 
-const EXT_ID = "LittleWhiteBox";
+const EXT_ID = "LittleWhiteBox-old";
 const CONSTANTS = {
     MAX_HISTORY_RECORDS: 10,
     CHECK_INTERVAL: 200,

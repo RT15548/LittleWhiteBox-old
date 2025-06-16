@@ -854,7 +854,7 @@ class StatsTracker {
         const extensions = character.data?.extensions;
         if (!extensions) return null;
 
-        const possibleFieldNames = [this.MODULE_NAME, 'statsTracker_behavior', 'LittleWhiteBox', 'xiaobaix'];
+        const possibleFieldNames = [this.MODULE_NAME, 'statsTracker_behavior', 'LittleWhiteBox-old', 'xiaobaix'];
 
         for (const fieldName of possibleFieldNames) {
             if (extensions[fieldName]?.relationshipGuidelines) {

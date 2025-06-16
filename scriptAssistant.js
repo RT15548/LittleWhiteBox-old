@@ -3,7 +3,7 @@ import { saveSettingsDebounced } from "../../../../script.js";
 import { setExtensionPrompt, extension_prompt_types } from "../../../../script.js";
 import { eventSource, event_types } from "../../../../script.js";
 
-const EXT_ID = "LittleWhiteBox";
+const EXT_ID = "LittleWhiteBox-old";
 const SCRIPT_MODULE_NAME = "xiaobaix-script";
 const extensionFolderPath = `scripts/extensions/third-party/${EXT_ID}`;
 
