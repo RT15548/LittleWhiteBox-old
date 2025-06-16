@@ -469,7 +469,7 @@ async function checkEmbeddedTasks() {
                 accountStorage.setItem(checkKey, 'true');
                 let result;
                 try {
-                    const templateFilePath = `scripts/extensions/third-party/LittleWhiteBox-old/embeddedTasks.html`;
+                    const templateFilePath = `scripts/extensions/third-party/${EXT_ID}/embeddedTasks.html`;
                     const templateContent = await fetch(templateFilePath).then(r => r.text());
                     const templateElement = $(templateContent);
                     const taskListContainer = templateElement.find('#embedded-tasks-list');
